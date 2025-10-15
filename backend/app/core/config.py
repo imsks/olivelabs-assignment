@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     # Application
     DEBUG: bool = True
     LOG_LEVEL: str = "INFO"
-    CORS_ORIGINS: List[str] = ["http://localhost:3000"]
+    CORS_ORIGINS: List[str] = ["http://localhost:3001"]
     
     # Optional
     ENABLE_METRICS: bool = True
